@@ -1,4 +1,3 @@
-// functions.hpp
 #ifndef FUNCTIONS_HPP
 #define FUNCTIONS_HPP
 
@@ -8,7 +7,7 @@
 #include <cmath>
 #include <utility>
 
-// Forward declarations
+// Forward declaration (rather than inclusion via header to avoid circular definitions)
 int minimax(const std::vector<std::vector<char>>& board, int alpha, int beta, bool isMaximizing);
 
 
@@ -91,7 +90,7 @@ inline int printInstructions() {
     }};
     std::cout << std::endl;
 
-std::cout << "Enter commands \"help\" (by entering 0) or \"exit\" (enter -1) at any time while playing." << std::endl;
+    std::cout << "Enter commands \"help\" (by entering 0) or \"exit\" (enter -1) at any time while playing." << std::endl;
     int turn;
     std::cout << std::endl;
     std::cout << "Do you want to go first or second? Enter 1 (first) or 2 (second): ";
