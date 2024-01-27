@@ -1,3 +1,3 @@
-## Title 
+## Using minimax algorithm to "solve" tic-tac-toe!
 
-Put some bs here lolz
+
