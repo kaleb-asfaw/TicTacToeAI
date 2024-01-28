@@ -4,8 +4,6 @@
 #include "functions.hpp"
 #include "minimax.hpp"
 
-const std::vector<std::string> COMMANDS = {"--help", "--exit"}; // Non-number inputs
-
 std::vector<std::vector<char>> generateBoard() {
     return std::vector<std::vector<char>>(3, std::vector<char>(3, '_'));
 }
